@@ -1,7 +1,7 @@
 CASA DE REFERÊNCIA: 276,2 kWh/mês = R$ 317,66/mês
 
 
-Equipamento                         kWh/mês      %  Dado
+Equipamento                          kWh/mês      %  Dado
 Chuveiro elétrico 5500 W              110,5    40%  estimado
 Geladeira 2 portas frost free          56,9    21%  oficial (Procel)
 Ventilador 80 W                        28,8    10%  estimado
