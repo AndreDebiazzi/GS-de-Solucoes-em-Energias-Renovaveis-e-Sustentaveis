@@ -1,0 +1,71 @@
+# Justificativas
+
+## 1. A necessidade e as alternativas comparadas
+
+**Necessidade:** reduzir o custo mensal de energia de uma família de baixa renda, sem perder conforto.
+
+**Alternativas** (mesma necessidade, mesmo período de 10 anos):
+
+- **A) Eficiência energética:** trocar 8 lâmpadas fluorescentes de 20 W por LED de 9 W, reduzir o banho em 25% (de 10 para 7,5 minutos por pessoa) e usar régua de tomadas para cortar metade do standby.
+- **B) Energia solar fotovoltaica (fonte renovável):** sistema ligado à rede, dimensionado para cobrir o consumo acima da taxa mínima de 30 kWh.
+- **A+B) Combinação:** eficiência primeiro e, depois, um sistema solar menor.
+
+## 2. Resultados (10 anos)
+
+| | A) Eficiência | B) Solar | A+B |
+|---|---:|---:|---:|
+| Investimento inicial | R$ 89 | R$ 12.375 | R$ 9.989 |
+| Potência instalada | n/a | 2,75 kWp | 2,20 kWp |
+| Economia por mês (ano 1) | R$ 53 | R$ 255 | R$ 260 |
+| Retorno do investimento | cerca de 2 meses | 3,9 anos | 3,1 anos |
+| Saldo líquido em 10 anos | R$ 7.572 | R$ 23.723 | R$ 26.999 |
+| CO₂ evitado em 10 anos | 214 kg | 1.138 kg | 1.138 kg |
+
+Para o solar, testamos três preços de sistema e dois reajustes da tarifa (0% e 4% ao ano):
+
+| Preço instalado | Investimento | Retorno (tarifa sem reajuste) | Retorno (reajuste de 4%) |
+|---|---:|---:|---:|
+| R$ 3,50 por Wp (otimista) | R$ 9.625 | 3,2 anos | 3,1 anos |
+| R$ 4,50 por Wp (base) | R$ 12.375 | 4,1 anos | 3,9 anos |
+| R$ 6,00 por Wp (pessimista) | R$ 16.500 | 5,5 anos | 5,1 anos |
+
+## 3. Recomendação 1: começar pela eficiência energética
+
+**Custo.** O investimento total é de R$ 89 e a economia é de cerca de R$ 53 por mês, o que paga o investimento em aproximadamente 2 meses. Cada kWh evitado custa menos de R$ 0,02, contra R$ 1,15 que a família paga por kWh na conta.
+
+**Onde a economia aparece.** O chuveiro é o maior consumo da casa de referência (110,5 kWh/mês, 40% do total). Reduzir o banho economiza 27,6 kWh (cerca de R$ 32 por mês) sem gastar nada. O LED economiza 13,2 kWh (R$ 15 por mês) e a régua de tomadas, 5,4 kWh (R$ 6 por mês).
+
+**Viabilidade.** Alta. Não depende de obra, telhado próprio, aprovação da distribuidora nem financiamento. Qualquer família pode começar no mesmo dia.
+
+**Impacto ambiental.** Positivo, mas pequeno: cerca de 214 kg de CO₂ evitados em 10 anos, além de menos lâmpadas queimadas, já que o LED dura mais.
+
+**Limite.** A economia é de cerca de 17% da conta. Ela alivia o orçamento, mas não zera o problema.
+
+## 4. Recomendação 2: avaliar energia solar quando houver telhado e como financiar
+
+**Custo.** É a maior economia absoluta: cerca de R$ 255 por mês, mais de 80% da conta. O custo por kWh gerado ao longo de 10 anos (investimento mais manutenção) é de cerca de R$ 0,44, bem abaixo dos R$ 1,15 da tarifa. O problema é o investimento inicial, de R$ 9,6 mil a R$ 16,5 mil conforme o cenário, alto para a renda do público. Por isso o assistente apresenta o solar como opção condicionada a **financiamento acessível e a orçamentos reais**, e mostra o pior cenário junto com o base.
+
+**Viabilidade.** Média a baixa para o público. Exige imóvel próprio, telhado com boa orientação e pouca sombra, aprovação da distribuidora e crédito. Famílias em imóvel alugado ou sem telhado adequado ficam de fora. Se o consumo for próximo de 30 kWh/mês, o assistente desaconselha o solar, pois a taxa mínima é paga de qualquer forma. Se o consumo for de até 80 kWh/mês e a família receber a Tarifa Social (100% de desconto até 80 kWh, segundo a ANEEL), o benefício torna o solar ainda menos vantajoso.
+
+**Regras que afetam o retorno.** Pela Lei 14.300/2022 (art. 27), quem usa a energia que injeta na rede paga uma parte da tarifa que cresce a cada ano: 60% em 2026, 75% em 2027 e 90% em 2028. No código, isso entra de forma simplificada, como um fator de 0,90 sobre o valor do kWh gerado. O aumento de 2027 e 2028 não foi modelado separadamente, então o retorno real pode ser um pouco mais longo.
+
+**Impacto ambiental.** Positivo, mas modesto em CO₂: cerca de 1,1 tonelada em 10 anos. Isso acontece porque 86,8% da matriz elétrica brasileira já era renovável em 2025 (EPE, BEN 2026), então cada kWh solar substitui um kWh que já emitia pouco (38,5 kg de CO₂ por MWh, média de 2023, MCTI). Esse cálculo não inclui as emissões de fabricação dos painéis e do inversor, nem o descarte no fim da vida útil (25 anos ou mais), que precisa ser feito de forma correta.
+
+## 5. Recomendação 3: reduzir o consumo antes de dimensionar o solar
+
+Fazendo a eficiência primeiro, o consumo cai de 276 para 230 kWh/mês, e o sistema solar necessário diminui de 2,75 para 2,20 kWp. O investimento total cai de R$ 12.375 para R$ 9.989 (cerca de R$ 2.400 a menos), a economia mensal sobe um pouco (R$ 260) e o retorno encurta de 3,9 para 3,1 anos. É a combinação com melhor resultado e é a ordem de ações que o assistente recomenda.
+
+## 6. Resumo da ordem recomendada
+
+1. **Agora, sem custo:** reduzir o tempo de banho e desligar aparelhos em espera.
+2. **Em seguida, baixo custo:** trocar as lâmpadas por LED.
+3. **Depois, se houver telhado próprio e crédito:** pedir orçamentos de energia solar e comparar com o cenário base (R$ 4,50 por Wp).
+
+## 7. Condições e limitações
+
+- A casa de referência é hipotética. O chuveiro com 40% do consumo vem de 4 pessoas tomando banho de 10 minutos em um chuveiro de 5.500 W; é uma premissa, e a média nacional costuma ser menor.
+- Tarifa com tributos (R$ 1,15/kWh), reajuste (4% ao ano), horas de uso dos aparelhos, preço do sistema (R$ 3,50 a R$ 6,00 por Wp), sol local (4,5 horas por dia) e o fator de 0,90 do Fio B são **estimativas**, identificadas no código.
+- Não foram considerados financiamento e juros, sombreamento, troca do inversor, baterias nem a taxa de iluminação pública.
+- As regras (Fio B, Tarifa Social) podem mudar e alterar os resultados.
+- Os valores **não são garantias** de economia ou de geração. Antes de decidir, a família deve conferir a própria conta de luz e pedir orçamentos.
+- Lista completa e tipo de cada dado: `docs/REFERENCIAS.md`
