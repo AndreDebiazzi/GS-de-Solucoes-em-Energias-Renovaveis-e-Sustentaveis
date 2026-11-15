@@ -35,4 +35,4 @@ Os valores são estimativas baseadas em uma casa hipotética. Dados marcados com
 
 ## Pastas
 - `codigo/` código do assistente
-- `docs/` justificativas, referências e testes com usuários
+- `docs/` justificativas, referências, resultados e testes com usuários
